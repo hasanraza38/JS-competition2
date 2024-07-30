@@ -9,7 +9,7 @@ html,body{
     width: 100%;
 }
 
-h1{
+/* h1{
     text-align: center;
 }
 form{
@@ -25,4 +25,35 @@ input{
 }
 a{
     margin: 20px 0px;
+} */
+
+
+#body{
+    background-color: #252525;
+}
+
+#heading{
+    color: #ffffff;
+    margin: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px;
+}
+
+ol{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+
+    line-height: 50px;
+}
+
+#app-border{
+    padding: 50px;
+}
+
+
+.app-button{
+
+    text-align:end ;
 }
