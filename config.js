@@ -2,6 +2,9 @@
  
  import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 
+ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js";
+
+
  const firebaseConfig = {
    apiKey: "AIzaSyACwlqTQVE5ArKP1_pjrADtW_Ps6RlDsMw",
    authDomain: "expense-management-app1.firebaseapp.com",
@@ -15,3 +18,4 @@
  // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export const db = getFirestore(app);
